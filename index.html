@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>2023</h1>
+        <p id="greeting"> ඔබ ඇතුලු පවුලේ සැමට සාමය සතුට පිරි කිරියෙන් පැණියෙන් ඉතිරෙන සුභ නව වසරක් වේවා</p>
+        <h5>best wishes from</h5>
+        <h5>-RANJULA BANDARA-</h5>
+      </div>
+
+      <script>
+        
+       
+        var userInput = prompt("Please enter your name");
+            if (userInput != null) {
+            var greeting = document.getElementById("greeting");
+            greeting.textContent += " " + userInput + "!";
+            } else {
+            console.log("User cancelled the prompt.");
+            alert("User cancelled the prompt.");
+            } 
+    </script>
+</body>
+
+</html>
